@@ -1,0 +1,46 @@
+{
+  "name": "@yellowgarbagegroup/avatar-generator",
+  "version": "3.1.1",
+  "description": "Snow White - Shared",
+  "homepage": "https://gitlab.com/YellowGarbageGroup/avatar-generator",
+  "bugs": {
+    "url": "https://gitlab.com/YellowGarbageGroup/avatar-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:YellowGarbageGroup/avatar-generator.git"
+  },
+  "license": "MIT",
+  "author": "Steffen <YellowGarbageBag@4s1.de>",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "preinstall": "npx only-allow pnpm",
+    "lbt": "npm run lint && npm run build && npm run test",
+    "lint": "eslint --ext .ts src/",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "echo No tests available",
+    "semantic-release": "semantic-release"
+  },
+  "prettier": "@yellowgarbagegroup/eslint-config",
+  "devDependencies": {
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/gitlab": "6.2.2",
+    "@types/node": "14.17.12",
+    "@yellowgarbagegroup/eslint-config": "2.1.1",
+    "@yellowgarbagegroup/semantic-release-config": "1.3.1",
+    "conventional-changelog": "3.1.24",
+    "conventional-changelog-conventionalcommits": "4.6.0",
+    "eslint": "7.32.0",
+    "prettier": "2.3.2",
+    "semantic-release": "17.4.7",
+    "typescript": "4.3.5"
+  },
+  "publishConfig": {
+    "@yellowgarbagegroup:registry": "https://gitlab.com/api/v4/projects/29205044/packages/npm/",
+    "access": "public"
+  }
+}
