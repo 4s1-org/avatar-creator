@@ -24,29 +24,56 @@ export function joinMatrices(...matrices: Matrix[]): Matrix {
   return res
 }
 
-export function appendFixedSideBorders(matrix: Matrix): void {
-  const res: Matrix = []
+export function appendStandardBorders(matrix: Matrix): void {
+  const squaresPerLine = matrix[0].length
+
+  // Top
+  matrix.unshift('-'.repeat(squaresPerLine))
+  // Bottom
+  matrix.push('-'.repeat(squaresPerLine))
 
   for (let lineNo = 0; lineNo < matrix.length; lineNo++) {
-    matrix[lineNo] = `--${matrix[lineNo]}--`
+    // Left and right
+    matrix[lineNo] = `-${matrix[lineNo]}-`
   }
 }
 
-export function appendTopAndBottomBorders(matrix: Matrix): void {
-  const squaresPerLine = matrix[0].length
-  const existingLines = matrix.length
-  let lineCountToAppend = squaresPerLine - existingLines
+export function fillTopAndBottomBorders(matrix: Matrix): void {
+  const existingColumns = matrix[0].length
+  const existingRows = matrix.length
+  let rowsToAppend = existingColumns - existingRows
 
-  let addToTop = true
-  while (lineCountToAppend > 0) {
+  // First to append should be at the bottom
+  let addToTop = false
+  while (rowsToAppend > 0) {
     if (addToTop) {
-      matrix.unshift('-'.repeat(squaresPerLine))
+      matrix.unshift('-'.repeat(existingColumns))
     } else {
-      matrix.push('-'.repeat(squaresPerLine))
+      matrix.push('-'.repeat(existingColumns))
     }
 
     addToTop = !addToTop
-    lineCountToAppend--
+    rowsToAppend--
+  }
+}
+
+export function fillSideBorders(matrix: Matrix): void {
+  const existingColumns = matrix[0].length
+  const existingRows = matrix.length
+
+  let columnsToAppend = existingRows - existingColumns
+
+  // First to append should be at the right side
+  let addToLeft = false
+  while (columnsToAppend > 0) {
+    if (addToLeft) {
+      matrix = matrix.map((x) => `-${x}`)
+    } else {
+      matrix = matrix.map((x) => `${x}-`)
+    }
+
+    addToLeft = !addToLeft
+    columnsToAppend--
   }
 }
 
@@ -54,4 +81,7 @@ export function printMatrix(matrix: Matrix): void {
   for (const line of matrix) {
     console.log(line)
   }
+  console.log()
+  console.log('Rows:    ' + matrix.length)
+  console.log('Columns: ' + matrix[0].length)
 }
