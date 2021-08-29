@@ -32,6 +32,9 @@
     "semantic-release": "semantic-release"
   },
   "prettier": "@yellowgarbagegroup/eslint-config",
+  "dependencies": {
+    "canvas": "^2.8.0"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
