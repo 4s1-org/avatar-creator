@@ -1,4 +1,5 @@
-import { createCanvas } from 'canvas'
+import { createCanvas, NodeCanvasRenderingContext2D } from 'canvas'
+import { Point } from './point'
 
 export type Matrix = string[]
 
@@ -89,53 +90,67 @@ export function printMatrix(matrix: Matrix): void {
 }
 
 export function createSvg(matrix: Matrix): any {
-  const canvas = createCanvas(200, 200)
+  const radius = 5
+  const borderWidth = 4
+  const squareSize = 50
+
+  const canvas = createCanvas(110, 110)
   const ctx = canvas.getContext('2d')
 
-  ctx.fillStyle = '#0f0'
-  ctx.fillRect(0, 0, 50, 60)
-  ctx.fillStyle = '#f00'
-  ctx.fillRect(100, 100, 30, 20)
+  // Wichtig: Erst die weißen Kästchen, dann die gelben!
 
-  // https://flaviocopes.com/canvas-node-generate-image/
-  // https://stackoverflow.com/questions/1255512/how-to-draw-a-rounded-rectangle-using-html-canvas
+  drawRoundedRect(ctx, 0, 0, 50, squareSize, radius, '#f00', '#0f0', borderWidth)
+  drawRoundedRect(ctx, 50, 0, 50, squareSize, radius, '#0f0', '#f00', borderWidth)
+  drawRoundedRect(ctx, 0, 50, 50, squareSize, radius, '#0f0', '#00f', borderWidth)
+  drawRoundedRect(ctx, 50, 50, 50, squareSize, radius, '#f00', '#f0f', borderWidth)
 
   const buffer = canvas.toBuffer('image/png')
   return buffer
+}
 
-  // const colCount = matrix[0].length
-  // const rowCount = matrix.length
-  // const boxPadding = 2
-  // const boxSize = 98
-  // const rounding = 5
-  // const border = 3
+function drawRoundedRect(
+  ctx: NodeCanvasRenderingContext2D,
+  x: number,
+  y: number,
+  width: number,
+  height: number,
+  radius: number,
+  fillStyle: string,
+  strokeStyle: string,
+  lineWidth: number,
+): void {
+  const xOffset = 10
+  const yOffset = 10
 
-  // for (let row = 0; row < rowCount; row++) {
-  //   for (let col = 0; col < colCount; col++) {
-  //     const x = boxSize * col + boxPadding / 2 + boxPadding * col
-  //     const y = boxSize * row + boxPadding / 2 + boxPadding * row
-  //     const letter = matrix[row][col]
-  //     console.log('x: ' + x + ' y: ' + y + ' letter: ' + letter)
+  x += 2
+  y += 2
+  height -= 5
+  width -= 5
 
-  //     const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect')
-  //     rect.setAttributeNS(null, 'x', x.toString())
-  //     rect.setAttributeNS(null, 'y', y.toString())
-  //     rect.setAttributeNS(null, 'width', boxSize.toString())
-  //     rect.setAttributeNS(null, 'height', boxSize.toString())
-  //     rect.setAttributeNS(null, 'rx', rounding.toString())
-  //     rect.setAttributeNS(null, 'ry', rounding.toString())
-  //     rect.setAttributeNS(null, 'stroke-width', border.toString())
+  const leftTop = new Point(x + xOffset, y + yOffset)
+  const rightTop = new Point(x + width - xOffset, y + yOffset)
+  const leftBottom = new Point(x + xOffset, y + height - yOffset)
+  const rightBottom = new Point(x + width - xOffset, y + height - yOffset)
 
-  //     if (letter === 'x') {
-  //       rect.setAttributeNS(null, 'fill', '#ffc107')
-  //       rect.setAttributeNS(null, 'stroke', '#E0A800')
-  //     } else if (letter === 'X') {
-  //       rect.setAttributeNS(null, 'fill', '#c9302c')
-  //       rect.setAttributeNS(null, 'stroke', '#ac2925')
-  //     } else {
-  //       rect.setAttributeNS(null, 'fill', '#fafafa')
-  //       rect.setAttributeNS(null, 'stroke', '#ccc')
-  //     }
-  //   }
-  // }
+  ctx.beginPath()
+  ctx.moveTo(x + radius + yOffset, y + yOffset)
+  // right (right top -> right bottom)
+  ctx.arcTo(rightTop.x, rightTop.y, rightBottom.x, rightBottom.y, radius)
+  // bottom (right bottom -> left bottom)
+  ctx.arcTo(rightBottom.x, rightBottom.y, leftBottom.x, leftBottom.y, radius)
+  // left (left bottom -> left top)
+  ctx.arcTo(leftBottom.x, leftBottom.y, leftTop.x, leftTop.y, radius)
+  // top (left top -> right top)
+  ctx.arcTo(leftTop.x, leftTop.y, rightTop.x, rightTop.y, radius)
+
+  if (strokeStyle) {
+    ctx.lineWidth = lineWidth
+    ctx.strokeStyle = strokeStyle
+    ctx.stroke()
+  }
+
+  if (fillStyle) {
+    ctx.fillStyle = fillStyle
+    ctx.fill()
+  }
 }
