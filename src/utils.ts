@@ -42,17 +42,17 @@ export function appendStandardBorders(matrix: Matrix): void {
 }
 
 export function fillTopAndBottomBorders(matrix: Matrix): void {
-  const existingColumns = matrix[0].length
-  const existingRows = matrix.length
-  let rowsToAppend = existingColumns - existingRows
+  const columnCount = matrix[0].length
+  const rowCount = matrix.length
+  let rowsToAppend = columnCount - rowCount
 
   // First to append should be at the bottom
   let addToTop = false
   while (rowsToAppend > 0) {
     if (addToTop) {
-      matrix.unshift('-'.repeat(existingColumns))
+      matrix.unshift('-'.repeat(columnCount))
     } else {
-      matrix.push('-'.repeat(existingColumns))
+      matrix.push('-'.repeat(columnCount))
     }
 
     addToTop = !addToTop
@@ -61,10 +61,10 @@ export function fillTopAndBottomBorders(matrix: Matrix): void {
 }
 
 export function fillSideBorders(matrix: Matrix): void {
-  const existingColumns = matrix[0].length
-  const existingRows = matrix.length
+  const columnCount = matrix[0].length
+  const rowCount = matrix.length
 
-  let columnsToAppend = existingRows - existingColumns
+  let columnsToAppend = rowCount - columnCount
 
   // First to append should be at the right side
   let addToLeft = false
@@ -90,19 +90,42 @@ export function printMatrix(matrix: Matrix): void {
 }
 
 export function createSvg(matrix: Matrix): any {
+  const columnCount = matrix[0].length
+  const rowCount = matrix.length
+
   const radius = 5
   const borderWidth = 4
   const squareSize = 50
 
-  const canvas = createCanvas(110, 110)
+  const yellowFill = '#ffc107'
+  const yellowBorder = '#E0A800'
+  const whiteFill = '#fafafa'
+  const whiteBorder = '#ccc'
+
+  const canvas = createCanvas(columnCount * squareSize, rowCount * squareSize)
   const ctx = canvas.getContext('2d')
+  ctx.fillStyle = 'white'
+  ctx.fillRect(0, 0, canvas.width, canvas.height)
 
-  // Wichtig: Erst die weißen Kästchen, dann die gelben!
+  // White squares
+  for (let x = 0; x < columnCount; x++) {
+    for (let y = 0; y < rowCount; y++) {
+      const item = matrix[y][x]
+      if (item === '-') {
+        drawRoundedRect(ctx, x * squareSize, y * squareSize, squareSize, squareSize, radius, whiteFill, whiteBorder, borderWidth)
+      }
+    }
+  }
 
-  drawRoundedRect(ctx, 0, 0, 50, squareSize, radius, '#f00', '#0f0', borderWidth)
-  drawRoundedRect(ctx, 50, 0, 50, squareSize, radius, '#0f0', '#f00', borderWidth)
-  drawRoundedRect(ctx, 0, 50, 50, squareSize, radius, '#0f0', '#00f', borderWidth)
-  drawRoundedRect(ctx, 50, 50, 50, squareSize, radius, '#f00', '#f0f', borderWidth)
+  // Yellow squares
+  for (let x = 0; x < columnCount; x++) {
+    for (let y = 0; y < rowCount; y++) {
+      const item = matrix[y][x]
+      if (item === 'x') {
+        drawRoundedRect(ctx, x * squareSize, y * squareSize, squareSize, squareSize, radius, yellowFill, yellowBorder, borderWidth)
+      }
+    }
+  }
 
   const buffer = canvas.toBuffer('image/png')
   return buffer
@@ -119,13 +142,13 @@ function drawRoundedRect(
   strokeStyle: string,
   lineWidth: number,
 ): void {
-  const xOffset = 10
-  const yOffset = 10
+  const xOffset = 0
+  const yOffset = 0
 
-  x += 2
-  y += 2
-  height -= 5
-  width -= 5
+  x += lineWidth / 2
+  y += lineWidth / 2
+  height -= lineWidth
+  width -= lineWidth
 
   const leftTop = new Point(x + xOffset, y + yOffset)
   const rightTop = new Point(x + width - xOffset, y + yOffset)
