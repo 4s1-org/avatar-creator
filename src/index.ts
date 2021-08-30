@@ -15,12 +15,12 @@ import fs from 'fs'
 async function main(): Promise<void> {
   const line1 = joinMatricesHorizontal(char['A'], char['B'], char['C'])
   const line2 = joinMatricesHorizontal(char['A'])
-  const matrix = joinMatricesVertical(line1, line2)
+  let matrix = joinMatricesVertical(line1, line2)
 
   appendStandardBorders(matrix)
 
   fillTopAndBottomBorders(matrix)
-  fillSideBorders(matrix)
+  matrix = fillSideBorders(matrix)
 
   const png = createSvg(matrix)
   fs.writeFileSync('test.png', png)
