@@ -1,23 +1,19 @@
 #!/usr/bin/env node
 
 import { char } from './chars/char'
-import { appendStandardBorders, fillSideBorders, fillTopAndBottomBorders, joinMatrices, printMatrix } from './utils'
-
-const yellowFill = '#ffc107'
-const yellowBorder = '#E0A800'
-const redFill = '#c9302c'
-const redBorder = '#ac2925'
-const whiteFill = '#fafafa'
-const whiteBorder = '#ccc'
+import { appendStandardBorders, createSvg, fillSideBorders, fillTopAndBottomBorders, joinMatrices, printMatrix } from './utils'
+import fs from 'fs'
 
 async function main(): Promise<void> {
-  const matrix = joinMatrices(char['A'], char['B'])
-  //const matrix = joinMatrices(char['A'])
+  const matrix = joinMatrices(char['A'], char['B'], char['B'], char['B'])
 
   appendStandardBorders(matrix)
 
   fillTopAndBottomBorders(matrix)
   fillSideBorders(matrix)
+
+  const png = createSvg(matrix)
+  fs.writeFileSync('test.png', png)
 
   printMatrix(matrix)
 }

@@ -4,12 +4,14 @@ stages:
 
 validate:
   stage: validating
-  image: node:14-buster
+  # buster is required for canvas
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-buster
   cache:
     key: "$CI_COMMIT_REF_SLUG"
     paths:
       - .pnpm-store
   script:
+    - npm i pnpm -g
     - pnpm i
     - pnpm run lint
     - pnpm run build
@@ -17,7 +19,8 @@ validate:
 
 publish:
   stage: deploying
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
+  # buster is required for canvas
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-buster
   cache:
     key: "$CI_COMMIT_REF_SLUG"
     paths:
