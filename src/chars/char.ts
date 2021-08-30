@@ -8,6 +8,9 @@ import { lowerW } from './lower-letter/lower-w'
 import { upperA } from './upper-letter/upper-a'
 import { upperB } from './upper-letter/upper-b'
 import { upperC } from './upper-letter/upper-c'
+import { upperE } from './upper-letter/upper-e'
+import { upperM } from './upper-letter/upper-m'
+import { upperR } from './upper-letter/upper-r'
 import { upperS } from './upper-letter/upper-s'
 import { upperW } from './upper-letter/upper-w'
 
@@ -22,6 +25,9 @@ export const char = {
   A: upperA,
   B: upperB,
   C: upperC,
+  E: upperE,
+  M: upperM,
+  R: upperR,
   S: upperS,
   W: upperW,
 }
