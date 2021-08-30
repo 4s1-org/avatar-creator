@@ -4,7 +4,7 @@ stages:
 
 validate:
   stage: validating
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine
+  image: node:14-buster
   cache:
     key: "$CI_COMMIT_REF_SLUG"
     paths:
