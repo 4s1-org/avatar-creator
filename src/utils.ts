@@ -7,7 +7,7 @@ export function formatMatrix(matrix: string): Matrix {
   return matrix.trim().split('\n')
 }
 
-export function joinMatrices(...matrices: Matrix[]): Matrix {
+export function joinMatricesHorizontal(...matrices: Matrix[]): Matrix {
   const res: Matrix = []
 
   for (let lineNo = 0; lineNo < 7; lineNo++) {
@@ -21,6 +21,26 @@ export function joinMatrices(...matrices: Matrix[]): Matrix {
       firstChar = false
 
       res[lineNo] += matrix[lineNo]
+    }
+  }
+
+  return res
+}
+
+export function joinMatricesVertical(...matrices: Matrix[]): Matrix {
+  const res: Matrix = []
+
+  // ToDo: align
+
+  let firstMatrix = true
+  for (const matrix of matrices) {
+    if (!firstMatrix) {
+      res.push('-')
+    }
+    firstMatrix = false
+
+    for (const line of matrix) {
+      res.push(line)
     }
   }
 
