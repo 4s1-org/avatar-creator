@@ -4,6 +4,7 @@ stages:
 
 validate:
   stage: validating
+  # required for canvas
   image: node:14-buster
   cache:
     key: "$CI_COMMIT_REF_SLUG"
@@ -18,7 +19,8 @@ validate:
 
 publish:
   stage: deploying
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
+  # required for canvas
+  image: node:14-buster
   cache:
     key: "$CI_COMMIT_REF_SLUG"
     paths:
