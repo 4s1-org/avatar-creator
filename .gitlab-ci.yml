@@ -10,6 +10,7 @@ validate:
     paths:
       - .pnpm-store
   script:
+    - npm i pnpm -g
     - pnpm i
     - pnpm run lint
     - pnpm run build
