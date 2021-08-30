@@ -7,7 +7,7 @@ export function formatMatrix(matrix: string): Matrix {
   return matrix.trim().split('\n')
 }
 
-export function joinMatrices(...matrices: Matrix[]): Matrix {
+export function joinMatricesHorizontal(...matrices: Matrix[]): Matrix {
   const res: Matrix = []
 
   for (let lineNo = 0; lineNo < 7; lineNo++) {
@@ -27,13 +27,42 @@ export function joinMatrices(...matrices: Matrix[]): Matrix {
   return res
 }
 
+export function joinMatricesVertical(...matrices: Matrix[]): Matrix {
+  const res: Matrix = []
+  let maxColumnCount = 0
+
+  for (const matrix of matrices) {
+    const columnCount = matrix[0].length
+    if (columnCount > maxColumnCount) {
+      maxColumnCount = columnCount
+    }
+  }
+
+  let firstMatrix = true
+  for (let matrix of matrices) {
+    matrix = appendColumns(matrix, maxColumnCount - matrix[0].length)
+
+    if (!firstMatrix) {
+      res.push('-'.repeat(maxColumnCount))
+      res.push('-'.repeat(maxColumnCount))
+    }
+    firstMatrix = false
+
+    for (const line of matrix) {
+      res.push(line)
+    }
+  }
+
+  return res
+}
+
 export function appendStandardBorders(matrix: Matrix): void {
-  const squaresPerLine = matrix[0].length
+  const columnCount = matrix[0].length
 
   // Top
-  matrix.unshift('-'.repeat(squaresPerLine))
+  matrix.unshift('-'.repeat(columnCount))
   // Bottom
-  matrix.push('-'.repeat(squaresPerLine))
+  matrix.push('-'.repeat(columnCount))
 
   for (let lineNo = 0; lineNo < matrix.length; lineNo++) {
     // Left and right
@@ -44,11 +73,11 @@ export function appendStandardBorders(matrix: Matrix): void {
 export function fillTopAndBottomBorders(matrix: Matrix): void {
   const columnCount = matrix[0].length
   const rowCount = matrix.length
-  let rowsToAppend = columnCount - rowCount
+  let rowCountToAppend = columnCount - rowCount
 
   // First to append should be at the bottom
   let addToTop = false
-  while (rowsToAppend > 0) {
+  while (rowCountToAppend > 0) {
     if (addToTop) {
       matrix.unshift('-'.repeat(columnCount))
     } else {
@@ -56,19 +85,23 @@ export function fillTopAndBottomBorders(matrix: Matrix): void {
     }
 
     addToTop = !addToTop
-    rowsToAppend--
+    rowCountToAppend--
   }
 }
 
-export function fillSideBorders(matrix: Matrix): void {
+export function fillSideBorders(matrix: Matrix): Matrix {
   const columnCount = matrix[0].length
   const rowCount = matrix.length
 
-  let columnsToAppend = rowCount - columnCount
+  const columnCountToAppend = rowCount - columnCount
+  matrix = appendColumns(matrix, columnCountToAppend)
+  return matrix
+}
 
+function appendColumns(matrix: Matrix, columnCountToAppend: number): Matrix {
   // First to append should be at the right side
   let addToLeft = false
-  while (columnsToAppend > 0) {
+  while (columnCountToAppend > 0) {
     if (addToLeft) {
       matrix = matrix.map((x) => `-${x}`)
     } else {
@@ -76,8 +109,9 @@ export function fillSideBorders(matrix: Matrix): void {
     }
 
     addToLeft = !addToLeft
-    columnsToAppend--
+    columnCountToAppend--
   }
+  return matrix
 }
 
 export function printMatrix(matrix: Matrix): void {
