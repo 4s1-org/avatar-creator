@@ -13,9 +13,9 @@ import {
 import fs from 'fs'
 
 async function main(): Promise<void> {
-  const line1 = joinMatricesHorizontal(char['C'], char['S'])
+  const line1 = joinMatricesHorizontal(char['R'], char['u'], char['n'])
   const line2 = joinMatricesHorizontal(char['M'], char['S'])
-  let matrix = joinMatricesVertical(line1, line2)
+  let matrix = joinMatricesVertical(line1)
 
   appendStandardBorders(matrix)
 
@@ -23,7 +23,7 @@ async function main(): Promise<void> {
   matrix = fillSideBorders(matrix)
 
   const png = createSvg(matrix)
-  fs.writeFileSync('test.png', png)
+  fs.writeFileSync('avatar.png', png)
 
   printMatrix(matrix)
 }
