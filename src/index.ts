@@ -5,15 +5,15 @@ import fs from 'fs'
 import { Matrix } from './matrix'
 
 async function main(): Promise<void> {
-  const matrixNew = new Matrix()
-  matrixNew.addChar(char['R'])
-  matrixNew.addChar(char['u'])
-  matrixNew.newLine()
-  matrixNew.addChar(char['s'])
-  matrixNew.makeItPretty()
-  matrixNew.print()
+  const matrix = new Matrix()
+  matrix.addChar(char['R'])
+  matrix.addChar(char['u'])
+  matrix.newLine()
+  matrix.addChar(char['s'])
+  matrix.makeItPretty()
+  matrix.print()
 
-  const png = matrixNew.createSvg()
+  const png = matrix.createSvg()
   fs.writeFileSync('avatar.png', png)
 }
 
