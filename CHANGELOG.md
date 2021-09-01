@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://gitlab.com/YellowGarbageGroup/avatar-generator/compare/v1.0.2...v1.1.0) (2021-09-01)
+
+
+### Features
+
+* new letters ([71e2c1c](https://gitlab.com/YellowGarbageGroup/avatar-generator/commit/71e2c1ca38cb8b554f56dd8d6470dd356c9e9289))
+
 ### [1.0.2](https://gitlab.com/YellowGarbageGroup/avatar-generator/compare/v1.0.1...v1.0.2) (2021-09-01)
 
 
