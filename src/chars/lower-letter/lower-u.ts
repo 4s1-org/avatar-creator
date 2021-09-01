@@ -1,6 +1,6 @@
-import { formatMatrix, Matrix } from '../../utils'
+import { formatChar } from '../../utils'
 
-export const lowerU: Matrix = formatMatrix(`
+export const lowerU = formatChar(`
 ----
 ----
 x--x
