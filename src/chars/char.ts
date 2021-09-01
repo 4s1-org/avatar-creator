@@ -12,13 +12,29 @@ import { lowerW } from './lower-letter/lower-w'
 import { upperA } from './upper-letter/upper-a'
 import { upperB } from './upper-letter/upper-b'
 import { upperC } from './upper-letter/upper-c'
+import { upperD } from './upper-letter/upper-d'
 import { upperE } from './upper-letter/upper-e'
+import { upperF } from './upper-letter/upper-f'
+import { upperG } from './upper-letter/upper-g'
+import { upperH } from './upper-letter/upper-h'
+import { upperI } from './upper-letter/upper-i'
+import { upperJ } from './upper-letter/upper-j'
 import { upperK } from './upper-letter/upper-k'
+import { upperL } from './upper-letter/upper-l'
 import { upperM } from './upper-letter/upper-m'
+import { upperN } from './upper-letter/upper-n'
+import { upperO } from './upper-letter/upper-o'
 import { upperP } from './upper-letter/upper-p'
+import { upperQ } from './upper-letter/upper-q'
 import { upperR } from './upper-letter/upper-r'
 import { upperS } from './upper-letter/upper-s'
+import { upperT } from './upper-letter/upper-t'
+import { upperU } from './upper-letter/upper-u'
+import { upperV } from './upper-letter/upper-v'
 import { upperW } from './upper-letter/upper-w'
+import { upperX } from './upper-letter/upper-x'
+import { upperY } from './upper-letter/upper-y'
+import { upperZ } from './upper-letter/upper-z'
 
 export const char = {
   e: lowerE,
@@ -36,11 +52,27 @@ export const char = {
   A: upperA,
   B: upperB,
   C: upperC,
+  D: upperD,
   E: upperE,
+  F: upperF,
+  G: upperG,
+  H: upperH,
+  I: upperI,
+  J: upperJ,
   K: upperK,
+  L: upperL,
   M: upperM,
+  N: upperN,
+  O: upperO,
   P: upperP,
+  Q: upperQ,
   R: upperR,
   S: upperS,
+  T: upperT,
+  U: upperU,
+  V: upperV,
   W: upperW,
+  X: upperX,
+  Y: upperY,
+  Z: upperZ,
 }
