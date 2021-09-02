@@ -4,7 +4,8 @@ stages:
 
 validate-job:
   stage: validate
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
+  # buster is required for canvas
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-buster
   cache:
     key: "$CI_COMMIT_REF_SLUG"
     paths:
@@ -19,7 +20,8 @@ validate-job:
 
 deploy-job:
   stage: deploy
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
+  # buster is required for canvas
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-buster
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   cache:
