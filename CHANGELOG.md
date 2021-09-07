@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.0.0](https://gitlab.com/4s1/avatar-generator/compare/v1.1.0...v2.0.0) (2021-09-07)
+
+
+### Bug Fixes
+
+* wrong group name ([386d6d3](https://gitlab.com/4s1/avatar-generator/commit/386d6d3b2e82953685349af91c299923bc661c3a))
+
+
+### Renovate Bot
+
+* update dependency @semantic-release/git to v9.0.1 ([611914a](https://gitlab.com/4s1/avatar-generator/commit/611914a9d8a4d8cf7dc9303f5457c6d12f7bba1f))
+* update dependency @yellowgarbagegroup/eslint-config to v2.2.0 ([4c53ab9](https://gitlab.com/4s1/avatar-generator/commit/4c53ab95ee839cea665977305fac45950888238e))
+* update dependency typescript to v4.4.2 ([6c260b5](https://gitlab.com/4s1/avatar-generator/commit/6c260b56364b4209544f76c7317f946991246574))
+
+
+### Breaking Changes
+
+* update to 4s1 group ([642c707](https://gitlab.com/4s1/avatar-generator/commit/642c70705df38347b428430bdea261231232dcb0))
+
 ## [1.1.0](https://gitlab.com/4s1/avatar-generator/compare/v1.0.2...v1.1.0) (2021-09-01)
 
 
