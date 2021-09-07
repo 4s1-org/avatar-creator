@@ -10,6 +10,8 @@ import { lowerS } from './lower-letter/lower-s'
 import { lowerT } from './lower-letter/lower-t'
 import { lowerU } from './lower-letter/lower-u'
 import { lowerW } from './lower-letter/lower-w'
+import { four } from './number/four'
+import { one } from './number/one'
 import { upperA } from './upper-letter/upper-a'
 import { upperB } from './upper-letter/upper-b'
 import { upperC } from './upper-letter/upper-c'
@@ -77,4 +79,7 @@ export const char = {
   X: upperX,
   Y: upperY,
   Z: upperZ,
+
+  1: one,
+  4: four,
 }
