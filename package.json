@@ -1,17 +1,17 @@
 {
-  "name": "@yellowgarbagegroup/avatar-generator",
+  "name": "@4s1/avatar-generator",
   "version": "1.1.0",
   "description": "Avatar Generator",
-  "homepage": "https://gitlab.com/YellowGarbageGroup/avatar-generator",
+  "homepage": "https://gitlab.com/4s1/avatar-generator",
   "bugs": {
-    "url": "https://gitlab.com/YellowGarbageGroup/avatar-generator/issues"
+    "url": "https://gitlab.com/4s1/avatar-generator/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:YellowGarbageGroup/avatar-generator.git"
+    "url": "git+ssh://git@gitlab.com/4s1/avatar-generator.git"
   },
   "license": "MIT",
-  "author": "Steffen <YellowGarbageBag@4s1.de>",
+  "author": "Steffen <steffen@4s1.de>",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "bin": {
@@ -31,17 +31,17 @@
     "test": "echo No tests available",
     "semantic-release": "semantic-release"
   },
-  "prettier": "@yellowgarbagegroup/eslint-config",
+  "prettier": "@4s1/eslint-config",
   "dependencies": {
     "canvas": "^2.8.0"
   },
   "devDependencies": {
+    "@4s1/eslint-config": "3.0.0",
+    "@4s1/semantic-release-config": "2.0.0",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.1",
     "@semantic-release/gitlab": "6.2.2",
     "@types/node": "14.17.14",
-    "@yellowgarbagegroup/eslint-config": "2.2.0",
-    "@yellowgarbagegroup/semantic-release-config": "1.3.2",
     "conventional-changelog": "3.1.24",
     "conventional-changelog-conventionalcommits": "4.6.0",
     "eslint": "7.32.0",
@@ -51,7 +51,7 @@
     "typescript": "4.4.2"
   },
   "publishConfig": {
-    "@yellowgarbagegroup:registry": "https://gitlab.com/api/v4/projects/29205044/packages/npm/",
+    "@4s1:registry": "https://gitlab.com/api/v4/projects/29205044/packages/npm/",
     "access": "public"
   }
 }
