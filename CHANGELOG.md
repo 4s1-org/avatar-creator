@@ -11,7 +11,7 @@
 ### Renovate Bot
 
 * update dependency @semantic-release/git to v9.0.1 ([611914a](https://gitlab.com/4s1/avatar-generator/commit/611914a9d8a4d8cf7dc9303f5457c6d12f7bba1f))
-* update dependency @yellowgarbagegroup/eslint-config to v2.2.0 ([4c53ab9](https://gitlab.com/4s1/avatar-generator/commit/4c53ab95ee839cea665977305fac45950888238e))
+* update dependency @4s1/eslint-config to v2.2.0 ([4c53ab9](https://gitlab.com/4s1/avatar-generator/commit/4c53ab95ee839cea665977305fac45950888238e))
 * update dependency typescript to v4.4.2 ([6c260b5](https://gitlab.com/4s1/avatar-generator/commit/6c260b56364b4209544f76c7317f946991246574))
 
 
