@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.1.0](https://gitlab.com/4s1/avatar-generator/compare/v2.0.0...v2.1.0) (2021-09-09)
+
+
+### Features
+
+* add 1 and 4 ([4469d8e](https://gitlab.com/4s1/avatar-generator/commit/4469d8e42b53961ed8aab9a5116d6edfa142403a))
+
+
+### Bug Fixes
+
+* url in package.json ([80a51a1](https://gitlab.com/4s1/avatar-generator/commit/80a51a1b6e6e42dc3c82bf2479d03a4d366f239c))
+
+
+### Renovate Bot
+
+* update dependency @4s1/eslint-config to v3.1.0 ([8477d66](https://gitlab.com/4s1/avatar-generator/commit/8477d661bf15938564e36e5876198d0246415aba))
+* update dependency @types/node to v14.17.15 ([e974300](https://gitlab.com/4s1/avatar-generator/commit/e974300da759a0023ee8408824cda699d1bb0343))
+* update dependency prettier to v2.4.0 ([f63fc50](https://gitlab.com/4s1/avatar-generator/commit/f63fc508b8523ea5d9b2b0418e1f7bd36765c827))
+
 ## [2.0.0](https://gitlab.com/4s1/avatar-generator/compare/v1.1.0...v2.0.0) (2021-09-07)
 
 
