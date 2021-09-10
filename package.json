@@ -5,7 +5,10 @@
   "bugs": {
     "url": "https://gitlab.com/4s1/avatar-generator/issues"
   },
-  "repository": "gitlab:4s1/avatar-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/4s1/avatar-generator.git"
+  },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
   "main": "dist/index.js",
