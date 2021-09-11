@@ -19,6 +19,7 @@ import { lowerU } from './lower-letter/lower-u'
 import { lowerW } from './lower-letter/lower-w'
 import { lowerX } from './lower-letter/lower-x'
 import { lowerY } from './lower-letter/lower-y'
+import { lowerZ } from './lower-letter/lower-z'
 import { four } from './number/four'
 import { one } from './number/one'
 import { upperA } from './upper-letter/upper-a'
@@ -70,6 +71,7 @@ export const char = {
   w: lowerW,
   x: lowerX,
   y: lowerY,
+  z: lowerZ,
 
   A: upperA,
   B: upperB,
