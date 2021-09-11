@@ -1,3 +1,4 @@
+import { Color } from '@4s1/toolbox'
 import { createCanvas, NodeCanvasRenderingContext2D } from 'canvas'
 import { Point } from './point'
 
@@ -126,10 +127,10 @@ export class Matrix {
     const borderWidth = 4
     const squareSize = 50
 
-    const yellowFill = '#ffc107'
-    const yellowBorder = '#E0A800'
-    const whiteFill = '#fafafa'
-    const whiteBorder = '#ccc'
+    const yellowFill = Color.lightYellow
+    const yellowBorder = Color.darkYellow
+    const whiteFill = Color.lightWhite
+    const whiteBorder = Color.darkWhite
 
     const canvas = createCanvas(columnCount * squareSize, rowCount * squareSize)
     const ctx = canvas.getContext('2d')
