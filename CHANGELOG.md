@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.2.0](https://gitlab.com/4s1/avatar-generator/compare/v2.1.0...v2.2.0) (2021-09-11)
+
+
+### Features
+
+* add lower a ([1b73b81](https://gitlab.com/4s1/avatar-generator/commit/1b73b8131691243bf9afcc4208254e9c34f7058f))
+* add lower b ([0b48f45](https://gitlab.com/4s1/avatar-generator/commit/0b48f454a1084e96f02d8d61f3fcbf4220771e96))
+* add lower l ([0a13d42](https://gitlab.com/4s1/avatar-generator/commit/0a13d424d336b10c75211b77ece95a24aa2c8829))
+* add lower x ([fc3b1eb](https://gitlab.com/4s1/avatar-generator/commit/fc3b1eb3ea6d830ec526d5b5dd8fa814c572d8dd))
+
+
+### Renovate Bot
+
+* update dependency @4s1/eslint-config to v3.1.1 ([db3828c](https://gitlab.com/4s1/avatar-generator/commit/db3828caae7fff004918ae5f534ec9667f61b572))
+* update dependency @4s1/eslint-config to v3.1.2 ([56c67df](https://gitlab.com/4s1/avatar-generator/commit/56c67dfa0c8d93b0ea121515d126985b3698402e))
+* update dependency @4s1/semantic-release-config to v2.0.1 ([a43da82](https://gitlab.com/4s1/avatar-generator/commit/a43da82986bca1ae116d2f011c9b8c1f29a63191))
+* update dependency conventional-changelog-conventionalcommits to v4.6.1 ([0779b1d](https://gitlab.com/4s1/avatar-generator/commit/0779b1dbad05afedf9cb4f2318bd936c644f3cde))
+* update dependency typescript to v4.4.3 ([16549c6](https://gitlab.com/4s1/avatar-generator/commit/16549c68cebc08be7b43370c36513e46c74fbc73))
+
 ## [2.1.0](https://gitlab.com/4s1/avatar-generator/compare/v2.0.0...v2.1.0) (2021-09-09)
 
 
