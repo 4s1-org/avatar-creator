@@ -22,6 +22,7 @@ import { lowerY } from './lower-letter/lower-y'
 import { lowerZ } from './lower-letter/lower-z'
 import { four } from './number/four'
 import { one } from './number/one'
+import { smilie } from './smilie'
 import { upperA } from './upper-letter/upper-a'
 import { upperB } from './upper-letter/upper-b'
 import { upperC } from './upper-letter/upper-c'
@@ -102,4 +103,6 @@ export const char = {
 
   1: one,
   4: four,
+
+  smilie: smilie,
 }
