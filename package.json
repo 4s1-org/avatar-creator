@@ -32,7 +32,7 @@
   },
   "prettier": "@4s1/eslint-config",
   "dependencies": {
-    "@4s1/toolbox": "1.2.1",
+    "@4s1/toolbox": "1.2.2",
     "canvas": "2.8.0"
   },
   "devDependencies": {
