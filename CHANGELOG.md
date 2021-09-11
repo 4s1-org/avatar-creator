@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.3.0](https://gitlab.com/4s1/avatar-generator/compare/v2.2.0...v2.3.0) (2021-09-11)
+
+
+### Features
+
+* add lower c ([2c0ceb9](https://gitlab.com/4s1/avatar-generator/commit/2c0ceb9b0123e775d83751e2d41ac70592b84112))
+* add lower g ([e240533](https://gitlab.com/4s1/avatar-generator/commit/e2405331d6b0191d5fa529dc6404b5c526026926))
+* add lower m ([e85397a](https://gitlab.com/4s1/avatar-generator/commit/e85397a592301a4b9ae87529f18de9faba047221))
+* add lower r ([6d3349a](https://gitlab.com/4s1/avatar-generator/commit/6d3349ae1e315a1553c6200864e076d6ecc716f8))
+* add lower y ([9010bda](https://gitlab.com/4s1/avatar-generator/commit/9010bdafbbe78bd0963619e5922f4d400765649a))
+* add lower z ([b81835f](https://gitlab.com/4s1/avatar-generator/commit/b81835f6d49bc4e27b31ff19c4f61c4af691d115))
+* add simple smilie ([be945c0](https://gitlab.com/4s1/avatar-generator/commit/be945c052c6775dc06313215c96b8dbac08062ae))
+
+
+### Miscellaneous Chores
+
+* update @4s1/toolbox package ([fc41673](https://gitlab.com/4s1/avatar-generator/commit/fc4167383352d2377dd1c34c0d524bac53af9cf0))
+
 ## [2.2.0](https://gitlab.com/4s1/avatar-generator/compare/v2.1.0...v2.2.0) (2021-09-11)
 
 
