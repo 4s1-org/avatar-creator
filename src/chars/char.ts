@@ -3,6 +3,7 @@ import { lowerE } from './lower-letter/lower-e'
 import { lowerH } from './lower-letter/lower-h'
 import { lowerI } from './lower-letter/lower-i'
 import { lowerK } from './lower-letter/lower-k'
+import { lowerL } from './lower-letter/lower-l'
 import { lowerN } from './lower-letter/lower-n'
 import { lowerO } from './lower-letter/lower-o'
 import { lowerP } from './lower-letter/lower-p'
@@ -45,6 +46,7 @@ export const char = {
   h: lowerH,
   i: lowerI,
   k: lowerK,
+  l: lowerL,
   n: lowerN,
   o: lowerO,
   p: lowerP,
