@@ -1,5 +1,6 @@
 import { lowerA } from './lower-letter/lower-a'
 import { lowerB } from './lower-letter/lower-b'
+import { lowerC } from './lower-letter/lower-c'
 import { lowerD } from './lower-letter/lower-d'
 import { lowerE } from './lower-letter/lower-e'
 import { lowerH } from './lower-letter/lower-h'
@@ -47,6 +48,7 @@ import { upperZ } from './upper-letter/upper-z'
 export const char = {
   a: lowerA,
   b: lowerB,
+  c: lowerC,
   d: lowerD,
   e: lowerE,
   h: lowerH,
