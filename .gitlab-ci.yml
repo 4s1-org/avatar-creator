@@ -1,6 +1,5 @@
 stages:
   - validate
-  - deploy
 
 validate-job:
   stage: validate
@@ -12,28 +11,9 @@ validate-job:
       - .pnpm-store
   before_script:
     - pnpm config set store-dir .pnpm-store
+    - echo "//gitlab.com/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
   script:
     - pnpm i
     - pnpm run lint
     - pnpm run build
     - pnpm run test
-
-deploy-job:
-  stage: deploy
-  # buster is required for canvas
-  image: registry.gitlab.com/4s1/docker/node:14-buster-dev
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  cache:
-    key: "$CI_COMMIT_REF_SLUG"
-    paths:
-      - .pnpm-store
-  variables:
-    NPM_TOKEN: ${CI_JOB_TOKEN}
-  before_script:
-    - pnpm config set store-dir .pnpm-store
-    - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
-  script:
-    - pnpm i
-    - pnpm run build
-    - pnpm run semantic-release
