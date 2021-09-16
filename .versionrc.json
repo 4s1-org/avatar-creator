@@ -12,7 +12,7 @@
     { "type": "style", "section": "Styles", "hidden": false },
     { "type": "test", "section": "Tests", "hidden": false }
   ],
-  "commitUrlFormat": "https://gitlab.com/4s1/playground/some-library/commit/{{hash}}",
-  "compareUrlFormat": "https://gitlab.com/4s1/playground/some-library/compare/{{previousTag}}...{{currentTag}}",
+  "commitUrlFormat": "https://gitlab.com/4s1/avatar-generator/commit/{{hash}}",
+  "compareUrlFormat": "https://gitlab.com/4s1/avatar-generator/compare/{{previousTag}}...{{currentTag}}",
   "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]"
 }
