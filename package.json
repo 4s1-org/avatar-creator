@@ -27,8 +27,7 @@
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "eslint --ext .ts src/",
     "lint:fix": "npm run lint -- --fix",
-    "test": "echo No tests available",
-    "semantic-release": "semantic-release"
+    "test": "echo No tests available"
   },
   "prettier": "@4s1/eslint-config",
   "dependencies": {
@@ -37,21 +36,13 @@
   },
   "devDependencies": {
     "@4s1/eslint-config": "3.1.2",
-    "@4s1/semantic-release-config": "2.1.0",
-    "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.1",
-    "@semantic-release/gitlab": "6.2.2",
     "@types/node": "14.17.16",
-    "conventional-changelog": "3.1.24",
-    "conventional-changelog-conventionalcommits": "4.6.1",
     "eslint": "7.32.0",
     "prettier": "2.4.1",
-    "semantic-release": "17.4.7",
     "ts-node": "10.2.1",
     "typescript": "4.4.3"
   },
   "publishConfig": {
-    "@4s1:registry": "https://gitlab.com/api/v4/projects/29205044/packages/npm/",
-    "access": "public"
+    "@4s1:registry": "https://gitlab.com/api/v4/projects/29205044/packages/npm/"
   }
 }
