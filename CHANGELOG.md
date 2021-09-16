@@ -1,5 +1,24 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.3.1](https://gitlab.com/4s1/playground/some-library/compare/v2.3.0...v2.3.1) (2021-09-16)
+
+
+### Continuous Integration
+
+* remove access to private packages ([923d9b7](https://gitlab.com/4s1/playground/some-library/commit/923d9b72905552ec8b7d78c0f15ee671f2f9fe3e))
+
+
+### Miscellaneous Chores
+
+* add standard-version ([a0150fd](https://gitlab.com/4s1/playground/some-library/commit/a0150fde543a49ff553b48165540518737f006fa))
+* Delete .releaserc.json ([2af439f](https://gitlab.com/4s1/playground/some-library/commit/2af439fc14bb5772df9b58ca62a74c3567d0316d))
+* remove semantic-release ([bdd53c8](https://gitlab.com/4s1/playground/some-library/commit/bdd53c88479546bfa889487aa67b285f64f6d22a))
+* update dependency @4s1/toolbox to v1.2.3 ([ab6da0e](https://gitlab.com/4s1/playground/some-library/commit/ab6da0ec9945667249a70276f46abf756f37704f))
+* update dependency @types/node to v14.17.16 ([f2c44b7](https://gitlab.com/4s1/playground/some-library/commit/f2c44b782c8a1c7df523d241050791e2d5249ed5))
+* update dependency prettier to v2.4.1 ([779f71f](https://gitlab.com/4s1/playground/some-library/commit/779f71f0c0e93b99257209722bf6e43f7556c9e8))
+
 ## [2.3.0](https://gitlab.com/4s1/avatar-generator/compare/v2.2.0...v2.3.0) (2021-09-11)
 
 
