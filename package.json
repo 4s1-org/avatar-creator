@@ -1,6 +1,7 @@
 {
   "name": "@4s1/avatar-generator",
   "version": "2.3.1",
+  "private": true,
   "description": "Avatar Generator",
   "bugs": {
     "url": "https://gitlab.com/4s1/avatar-generator/issues"
