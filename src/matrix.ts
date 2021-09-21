@@ -1,6 +1,8 @@
-import { Color } from '@4s1/toolbox'
+import { Bootstrap3Color } from '@4s1/toolbox'
 import { createCanvas, NodeCanvasRenderingContext2D } from 'canvas'
 import { Point } from './point'
+import convert from 'color-convert'
+import { SquareColor } from './square-color'
 
 export class Matrix {
   private data: string[] = []
@@ -127,33 +129,25 @@ export class Matrix {
     const borderWidth = 4
     const squareSize = 50
 
-    const yellowFill = Color.lightYellow
-    const yellowBorder = Color.darkYellow
-    const whiteFill = Color.lightWhite
-    const whiteBorder = Color.darkWhite
-
     const canvas = createCanvas(columnCount * squareSize, rowCount * squareSize)
     const ctx = canvas.getContext('2d')
     ctx.fillStyle = 'white'
     ctx.fillRect(0, 0, canvas.width, canvas.height)
 
-    // White squares
     for (let x = 0; x < columnCount; x++) {
       for (let y = 0; y < rowCount; y++) {
-        const item = this.data[y][x]
-        if (item === '-') {
-          this.drawRoundedRect(ctx, x * squareSize, y * squareSize, squareSize, squareSize, radius, whiteFill, whiteBorder, borderWidth)
-        }
-      }
-    }
-
-    // Yellow squares
-    for (let x = 0; x < columnCount; x++) {
-      for (let y = 0; y < rowCount; y++) {
-        const item = this.data[y][x]
-        if (item === 'x') {
-          this.drawRoundedRect(ctx, x * squareSize, y * squareSize, squareSize, squareSize, radius, yellowFill, yellowBorder, borderWidth)
-        }
+        const color = this.getColor(this.data[y][x])
+        this.drawRoundedRect(
+          ctx,
+          x * squareSize,
+          y * squareSize,
+          squareSize,
+          squareSize,
+          radius,
+          color.fillColor,
+          color.borderColor,
+          borderWidth,
+        )
       }
     }
 
@@ -205,6 +199,25 @@ export class Matrix {
     if (fillStyle) {
       ctx.fillStyle = fillStyle
       ctx.fill()
+    }
+  }
+
+  private getColor(char: string): SquareColor {
+    switch (char) {
+      case '-':
+        return new SquareColor('#ffffff')
+      case 'r':
+        return new SquareColor(Bootstrap3Color.red)
+      case 'b':
+        return new SquareColor(Bootstrap3Color.blue)
+      case 'g':
+        return new SquareColor(Bootstrap3Color.green)
+      case 'c':
+        return new SquareColor(Bootstrap3Color.cyan)
+      case 'x':
+      case 'y':
+      default:
+        return new SquareColor(Bootstrap3Color.yellow)
     }
   }
 }
