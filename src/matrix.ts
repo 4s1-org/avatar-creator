@@ -1,7 +1,6 @@
 import { Bootstrap3Color } from '@4s1/toolbox'
 import { createCanvas, NodeCanvasRenderingContext2D } from 'canvas'
 import { Point } from './point'
-import convert from 'color-convert'
 import { SquareColor } from './square-color'
 
 export class Matrix {
@@ -32,6 +31,10 @@ export class Matrix {
 
   public get rowCount(): number {
     return this.data.length
+  }
+
+  public addTemplate(template: string): void {
+    this.data = template.split('\n')
   }
 
   public addChar(char: string[]): void {
