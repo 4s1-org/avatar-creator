@@ -1,6 +1,29 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+## [3.0.0](https://gitlab.com/4s1/avatar-generator/compare/v2.3.1...v3.0.0) (2021-09-21)
+
+
+### Features
+
+* add missing lower case letters ([5866622](https://gitlab.com/4s1/avatar-generator/commit/58666226fea7d4900b8d0da5e1ef7e3c13c77f59))
+* add missing numbers ([a374bfa](https://gitlab.com/4s1/avatar-generator/commit/a374bfa3e8f425343712c4e21b7f46608f216ad5))
+* multicolor support ([ddec2c3](https://gitlab.com/4s1/avatar-generator/commit/ddec2c330834ab4bb3281aaad2c9f415d01b2a27))
+* template support added ([0397fc8](https://gitlab.com/4s1/avatar-generator/commit/0397fc855a27ccd3fc51e1397b89c68f063d1a44))
+* text via parameter support added ([5fae0dd](https://gitlab.com/4s1/avatar-generator/commit/5fae0dd0fc5e4b9767156d869e9b90d97d549963))
+
+
+### Documentation
+
+* fix changelog ([65207f6](https://gitlab.com/4s1/avatar-generator/commit/65207f66529f732d7d307bb8401fa09a695b2f34))
+* fix changelog ([167783a](https://gitlab.com/4s1/avatar-generator/commit/167783a059b792a9591a7f74cdc18bcc75cfb528))
+
+
+### Miscellaneous Chores
+
+* project settings ([8d52354](https://gitlab.com/4s1/avatar-generator/commit/8d52354e1f86cc3e7df8d4f13f19e76b390e4ee4))
+* remove publish url ([ddbc293](https://gitlab.com/4s1/avatar-generator/commit/ddbc293ae7ba499e469e0a5c7439e7f8dab6829c))
+* update dependency @types/node to v14.17.17 ([f987203](https://gitlab.com/4s1/avatar-generator/commit/f987203c7f8fba366b0d9d2bae7fa113b32e8976))
+* update deps and devDeps ([d1ed52d](https://gitlab.com/4s1/avatar-generator/commit/d1ed52d0505b26172535cb3f65cb4d1c45300a0c))
 
 ## [2.3.1](https://gitlab.com/4s1/avatar-generator/compare/v2.3.0...v2.3.1) (2021-09-16)
 
@@ -88,7 +111,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 - new letters ([71e2c1c](https://gitlab.com/4s1/avatar-generator/commit/71e2c1ca38cb8b554f56dd8d6470dd356c9e9289))
 
-### [1.0.2](https://gitlab.com/4s1/avatar-generator/compare/v1.0.1...v1.0.2) (2021-09-01)
+## [1.0.2](https://gitlab.com/4s1/avatar-generator/compare/v1.0.1...v1.0.2) (2021-09-01)
 
 ### Continuous Integration
 
