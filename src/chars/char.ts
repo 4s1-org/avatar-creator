@@ -1,3 +1,4 @@
+import { fail } from './fail'
 import { lowerA } from './lower-letter/lower-a'
 import { lowerB } from './lower-letter/lower-b'
 import { lowerC } from './lower-letter/lower-c'
@@ -105,4 +106,5 @@ export const char = {
   4: four,
 
   smilie: smilie,
+  fail: fail,
 }
