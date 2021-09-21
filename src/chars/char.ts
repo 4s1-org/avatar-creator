@@ -25,8 +25,16 @@ import { lowerW } from './lower-letter/lower-w'
 import { lowerX } from './lower-letter/lower-x'
 import { lowerY } from './lower-letter/lower-y'
 import { lowerZ } from './lower-letter/lower-z'
+import { eight } from './number/eight'
+import { five } from './number/five'
 import { four } from './number/four'
+import { nine } from './number/nine'
 import { one } from './number/one'
+import { seven } from './number/seven'
+import { six } from './number/six'
+import { three } from './number/three'
+import { two } from './number/two'
+import { zero } from './number/zero'
 import { smilie } from './smilie'
 import { upperA } from './upper-letter/upper-a'
 import { upperB } from './upper-letter/upper-b'
@@ -110,8 +118,16 @@ export const char = {
   Y: upperY,
   Z: upperZ,
 
+  0: zero,
   1: one,
+  2: two,
+  3: three,
   4: four,
+  5: five,
+  6: six,
+  7: seven,
+  8: eight,
+  9: nine,
 
   smilie: smilie,
   fail: fail,
