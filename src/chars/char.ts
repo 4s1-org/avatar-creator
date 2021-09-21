@@ -4,19 +4,23 @@ import { lowerB } from './lower-letter/lower-b'
 import { lowerC } from './lower-letter/lower-c'
 import { lowerD } from './lower-letter/lower-d'
 import { lowerE } from './lower-letter/lower-e'
+import { lowerF } from './lower-letter/lower-f'
 import { lowerG } from './lower-letter/lower-g'
 import { lowerH } from './lower-letter/lower-h'
 import { lowerI } from './lower-letter/lower-i'
+import { lowerJ } from './lower-letter/lower-j'
 import { lowerK } from './lower-letter/lower-k'
 import { lowerL } from './lower-letter/lower-l'
 import { lowerM } from './lower-letter/lower-m'
 import { lowerN } from './lower-letter/lower-n'
 import { lowerO } from './lower-letter/lower-o'
 import { lowerP } from './lower-letter/lower-p'
+import { lowerQ } from './lower-letter/lower-q'
 import { lowerR } from './lower-letter/lower-r'
 import { lowerS } from './lower-letter/lower-s'
 import { lowerT } from './lower-letter/lower-t'
 import { lowerU } from './lower-letter/lower-u'
+import { lowerV } from './lower-letter/lower-v'
 import { lowerW } from './lower-letter/lower-w'
 import { lowerX } from './lower-letter/lower-x'
 import { lowerY } from './lower-letter/lower-y'
@@ -57,19 +61,23 @@ export const char = {
   c: lowerC,
   d: lowerD,
   e: lowerE,
+  f: lowerF,
   g: lowerG,
   h: lowerH,
   i: lowerI,
+  j: lowerJ,
   k: lowerK,
   l: lowerL,
   m: lowerM,
   n: lowerN,
   o: lowerO,
   p: lowerP,
+  q: lowerQ,
   r: lowerR,
   s: lowerS,
   t: lowerT,
   u: lowerU,
+  v: lowerV,
   w: lowerW,
   x: lowerX,
   y: lowerY,
