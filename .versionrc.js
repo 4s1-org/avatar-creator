@@ -1,3 +1,3 @@
 const config = require('@4s1/changelog-config')
 
-module.exports = config('https://gitlab.com/4s1/avatar-generator')
+module.exports = config()
