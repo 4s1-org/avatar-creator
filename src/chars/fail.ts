@@ -1,4 +1,4 @@
-import { formatChar } from '../utils'
+import { formatChar } from '../utils.js'
 
 export const fail = formatChar(`
 -x-x-

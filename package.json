@@ -12,8 +12,10 @@
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "bin": {
     "avatar-generator": "./dist/index.js"
   },
@@ -22,6 +24,7 @@
   ],
   "scripts": {
     "build": "rm -rf dist && tsc",
+    "build:dev": "pnpm run build -- --project tsconfig.dev.json",
     "start": "ts-node src/index.ts",
     "preinstall": "npx only-allow pnpm",
     "lbt": "npm run lint && npm run build && npm run test",
@@ -42,8 +45,8 @@
     "commander": "8.2.0"
   },
   "devDependencies": {
-    "@4s1/changelog-config": "3.0.0",
     "@4s1/eslint-config": "3.1.2",
+    "@4s1/ts-config": "1.1.0",
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
     "@types/color-convert": "2.0.0",
