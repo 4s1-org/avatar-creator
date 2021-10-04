@@ -1,4 +1,4 @@
-import { formatChar } from '../../utils'
+import { formatChar } from '../../utils.js'
 
 export const upperF = formatChar(`
 xxxxx
