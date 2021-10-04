@@ -1,7 +1,7 @@
 import { Bootstrap3Color } from '@4s1/toolbox'
-import { createCanvas, NodeCanvasRenderingContext2D } from 'canvas'
-import { Point } from './point'
-import { SquareColor } from './square-color'
+import canvasPkg from 'canvas'
+import { Point } from './point.js'
+import { SquareColor } from './square-color.js'
 
 export class Matrix {
   private data: string[] = []
@@ -132,7 +132,7 @@ export class Matrix {
     const borderWidth = 4
     const squareSize = 50
 
-    const canvas = createCanvas(columnCount * squareSize, rowCount * squareSize)
+    const canvas = canvasPkg.createCanvas(columnCount * squareSize, rowCount * squareSize)
     const ctx = canvas.getContext('2d')
     ctx.fillStyle = 'white'
     ctx.fillRect(0, 0, canvas.width, canvas.height)
@@ -159,7 +159,7 @@ export class Matrix {
   }
 
   private drawRoundedRect(
-    ctx: NodeCanvasRenderingContext2D,
+    ctx: canvasPkg.NodeCanvasRenderingContext2D,
     x: number,
     y: number,
     width: number,

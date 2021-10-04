@@ -1,4 +1,4 @@
-import { formatChar } from '../../utils'
+import { formatChar } from '../../utils.js'
 
 export const upperX = formatChar(`
 x---x
