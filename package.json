@@ -26,7 +26,7 @@
     "build": "rm -rf dist && tsc",
     "build:dev": "pnpm run build -- --project tsconfig.dev.json",
     "start": "node dist/index.js",
-    "start:dev": "node --loader ts-node/esm --experimental-specifier-resolution=node src/index.ts",
+    "start:dev": "node --loader ts-node/esm src/index.ts",
     "preinstall": "npx only-allow pnpm",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "eslint --ext .ts src/",
