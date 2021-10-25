@@ -128,9 +128,10 @@ export class Matrix {
     const columnCount = this.data[0].length
     const rowCount = this.data.length
 
-    const radius = 5
-    const borderWidth = 4
-    const squareSize = 50
+    const factor = 1
+    const radius = 5 * factor
+    const borderWidth = 4 * factor
+    const squareSize = 50 * factor
 
     const canvas = canvasPkg.createCanvas(columnCount * squareSize, rowCount * squareSize)
     const ctx = canvas.getContext('2d')
