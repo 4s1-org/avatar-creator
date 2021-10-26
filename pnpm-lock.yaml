@@ -7,7 +7,7 @@ specifiers:
   '@commitlint/cli': 13.2.1
   '@commitlint/config-conventional': 13.2.0
   '@types/color-convert': 2.0.0
-  '@types/node': 14.17.31
+  '@types/node': 14.17.32
   canvas: 2.8.0
   color-convert: 2.0.1
   commander: 8.3.0
@@ -30,12 +30,12 @@ devDependencies:
   '@commitlint/cli': 13.2.1
   '@commitlint/config-conventional': 13.2.0
   '@types/color-convert': 2.0.0
-  '@types/node': 14.17.31
+  '@types/node': 14.17.32
   eslint: 8.1.0
   husky: 7.0.4
   prettier: 2.4.1
   standard-version: 9.3.2
-  ts-node: 10.4.0_69ef64cb543a5f02b41b1b394cb091c8
+  ts-node: 10.4.0_66cff836a13bfa9aac50076d548b3a54
   typescript: 4.4.4
 
 packages:
@@ -368,8 +368,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/14.17.31:
-    resolution: {integrity: sha512-MUeD1RfIycvO6Msfdl4vzfce7r0FWimF8QFdY1XslfHMFYmUvcZDPkaYrqdVLOi9pugnO4ASHyThb2K4hbjxMA==}
+  /@types/node/14.17.32:
+    resolution: {integrity: sha512-JcII3D5/OapPGx+eJ+Ik1SQGyt6WvuqdRfh9jUwL6/iHGjmyOriBDciBUu7lEIBTL2ijxwrR70WUnw5AEDmFvQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -2846,7 +2846,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node/10.4.0_69ef64cb543a5f02b41b1b394cb091c8:
+  /ts-node/10.4.0_66cff836a13bfa9aac50076d548b3a54:
     resolution: {integrity: sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==}
     hasBin: true
     peerDependencies:
@@ -2865,7 +2865,7 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 14.17.31
+      '@types/node': 14.17.32
       acorn: 8.5.0
       acorn-walk: 8.2.0
       arg: 4.1.3
