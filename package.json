@@ -40,7 +40,7 @@
   },
   "prettier": "@4s1/eslint-config",
   "dependencies": {
-    "@4s1/toolbox": "3.0.0",
+    "@4s1/toolbox": "4.0.1",
     "canvas": "2.8.0",
     "color-convert": "2.0.1",
     "commander": "8.3.0"
