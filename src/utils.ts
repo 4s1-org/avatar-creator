@@ -1,5 +1,5 @@
-import { char } from './chars/char.js'
-import { Matrix } from './matrix.js'
+import { char } from './chars/char'
+import { Matrix } from './matrix'
 
 export function formatChar(charMatrix: string): string[] {
   return charMatrix.trim().split('\n')

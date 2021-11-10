@@ -1,4 +1,4 @@
-import { formatChar } from '../../utils.js'
+import { formatChar } from '../../utils'
 
 export const four = formatChar(`
 --x--

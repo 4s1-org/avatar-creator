@@ -1,4 +1,4 @@
-import { formatChar } from '../../utils.js'
+import { formatChar } from '../../utils'
 
 export const lowerL = formatChar(`
 x
