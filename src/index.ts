@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import fs from 'fs'
-import { Matrix } from './matrix.js'
+import { Matrix } from './matrix'
 import { Command } from 'commander'
-import { char } from './chars/char.js'
+import { char } from './chars/char'
 
 const program = new Command()
 program
