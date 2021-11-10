@@ -1,7 +1,7 @@
 import { Bootstrap3Color } from '@4s1/toolbox'
 import canvasPkg from 'canvas'
-import { Point } from './point.js'
-import { SquareColor } from './square-color.js'
+import { Point } from './point'
+import { SquareColor } from './square-color'
 
 export class Matrix {
   private data: string[] = []
