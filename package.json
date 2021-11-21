@@ -1,14 +1,14 @@
 {
-  "name": "@4s1/avatar-generator",
+  "name": "@4s1/avatar-creator",
   "version": "3.0.0",
   "private": true,
-  "description": "Avatar Generator",
+  "description": "Avatar Creator",
   "bugs": {
-    "url": "https://gitlab.com/4s1/avatar-generator/issues"
+    "url": "https://gitlab.com/4s1/avatar-creator/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/4s1/avatar-generator.git"
+    "url": "https://gitlab.com/4s1/avatar-creator.git"
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
@@ -17,7 +17,7 @@
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "bin": {
-    "avatar-generator": "./dist/index.js"
+    "avatar-creator": "./dist/index.js"
   },
   "files": [
     "dist/"

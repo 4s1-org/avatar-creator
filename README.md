@@ -1,4 +1,4 @@
-# Avatar Generator
+# Avatar Creator
 
 ## Run
 
