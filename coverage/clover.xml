@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1639751917610" clover="3.2.0">
+  <project timestamp="1639751917610" name="All files">
+    <metrics statements="375" coveredstatements="0" conditionals="30" coveredconditionals="0" methods="18" coveredmethods="0" elements="423" coveredelements="0" complexity="0" loc="375" ncloc="375" packages="5" files="70" classes="70"/>
+    <package name="src">
+      <metrics statements="182" coveredstatements="0" conditionals="30" coveredconditionals="0" methods="18" coveredmethods="0"/>
+      <file name="index.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/index.ts">
+        <metrics statements="28" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+      </file>
+      <file name="matrix.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/matrix.ts">
+        <metrics statements="107" coveredstatements="0" conditionals="21" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="173" count="0" type="stmt"/>
+        <line num="174" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="178" count="0" type="stmt"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="181" count="0" type="stmt"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="186" count="0" type="stmt"/>
+        <line num="187" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="193" count="0" type="stmt"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="197" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="198" count="0" type="stmt"/>
+        <line num="199" count="0" type="stmt"/>
+        <line num="200" count="0" type="stmt"/>
+        <line num="203" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="205" count="0" type="stmt"/>
+        <line num="210" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="212" count="0" type="stmt"/>
+        <line num="214" count="0" type="stmt"/>
+        <line num="216" count="0" type="stmt"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="220" count="0" type="stmt"/>
+        <line num="224" count="0" type="stmt"/>
+      </file>
+      <file name="point.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/point.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+      <file name="square-color.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/square-color.ts">
+        <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="utils.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/utils.ts">
+        <metrics statements="39" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.chars">
+      <metrics statements="69" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="char.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/char.ts">
+        <metrics statements="65" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="fail.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/fail.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="smilie.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/smilie.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.chars.lower-letter">
+      <metrics statements="52" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="lower-a.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-a.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-b.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-b.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-c.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-c.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-d.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-d.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-e.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-e.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-f.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-f.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-g.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-g.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-h.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-h.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-i.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-i.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-j.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-j.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-k.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-k.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-l.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-l.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-m.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-m.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-n.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-n.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-o.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-o.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-p.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-p.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-q.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-q.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-r.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-r.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-s.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-s.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-t.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-t.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-u.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-u.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-v.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-v.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-w.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-w.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-x.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-x.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-y.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-y.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="lower-z.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/lower-letter/lower-z.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.chars.number">
+      <metrics statements="20" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="eight.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/eight.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="five.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/five.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="four.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/four.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="nine.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/nine.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="one.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/one.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="seven.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/seven.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="six.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/six.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="three.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/three.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="two.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/two.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="zero.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/number/zero.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.chars.upper-letter">
+      <metrics statements="52" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="upper-a.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-a.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-b.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-b.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-c.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-c.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-d.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-d.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-e.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-e.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-f.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-f.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-g.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-g.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-h.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-h.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-i.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-i.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-j.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-j.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-k.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-k.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-l.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-l.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-m.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-m.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-n.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-n.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-o.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-o.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-p.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-p.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-q.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-q.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-r.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-r.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-s.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-s.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-t.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-t.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-u.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-u.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-v.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-v.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-w.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-w.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-x.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-x.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-y.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-y.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="upper-z.ts" path="/mnt/c/WS-Bender/repos/private/avatar-creator/src/chars/upper-letter/upper-z.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
