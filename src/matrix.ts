@@ -1,5 +1,5 @@
 import { Bootstrap3Color } from '@4s1/toolbox'
-import canvasPkg from 'canvas'
+import { CanvasRenderingContext2D, createCanvas } from 'canvas'
 import { Point } from './point'
 import { SquareColor } from './square-color'
 
@@ -133,7 +133,7 @@ export class Matrix {
     const borderWidth = 4 * factor
     const squareSize = 50 * factor
 
-    const canvas = canvasPkg.createCanvas(columnCount * squareSize, rowCount * squareSize)
+    const canvas = createCanvas(columnCount * squareSize, rowCount * squareSize)
     const ctx = canvas.getContext('2d')
     ctx.fillStyle = 'white'
     ctx.fillRect(0, 0, canvas.width, canvas.height)
@@ -160,7 +160,7 @@ export class Matrix {
   }
 
   private drawRoundedRect(
-    ctx: canvasPkg.NodeCanvasRenderingContext2D,
+    ctx: CanvasRenderingContext2D,
     x: number,
     y: number,
     width: number,
