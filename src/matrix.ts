@@ -1,4 +1,4 @@
-import { Bootstrap3Color } from '@4s1/toolbox'
+babelimport { Bootstrap3Color } from '@4s1/toolbox'
 import { CanvasRenderingContext2D, createCanvas } from 'canvas'
 import { Point } from './point'
 import { SquareColor } from './square-color'
