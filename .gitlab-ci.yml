@@ -11,4 +11,5 @@ stages:
   - sonarlint
 
 validate-job:
+  # https://gitlab.com/4s1/docker/-/blob/main/node/buster/dev/Dockerfile
   image: registry.gitlab.com/4s1/docker/node:14-buster-dev
