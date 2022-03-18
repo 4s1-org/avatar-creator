@@ -10,7 +10,7 @@ specifiers:
   '@types/node': 14.18.12
   canvas: 2.9.0
   color-convert: 2.0.1
-  commander: 9.0.0
+  commander: 9.1.0
   eslint: 8.11.0
   husky: 7.0.4
   prettier: 2.6.0
@@ -22,7 +22,7 @@ dependencies:
   '@4s1/toolbox': 4.3.0
   canvas: 2.9.0
   color-convert: 2.0.1
-  commander: 9.0.0
+  commander: 9.1.0
 
 devDependencies:
   '@4s1/eslint-config': 3.10.0_83bc012e22a441999bc7e52466863909
@@ -750,8 +750,8 @@ packages:
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  /commander/9.0.0:
-    resolution: {integrity: sha512-JJfP2saEKbQqvW+FI93OYUB4ByV5cizMpFMiiJI8xDbBvQvSkIk0VvQdn1CZ8mqAO8Loq2h0gYTYtDFUZUeERw==}
+  /commander/9.1.0:
+    resolution: {integrity: sha512-i0/MaqBtdbnJ4XQs4Pmyb+oFQl+q0lsAmokVUH92SlSw4fkeAcG3bVon+Qt7hmtF+u3Het6o4VgrcY3qAoEB6w==}
     engines: {node: ^12.20.0 || >=14}
     dev: false
 
