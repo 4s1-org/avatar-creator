@@ -8,7 +8,7 @@ specifiers:
   '@commitlint/config-conventional': 16.2.1
   '@types/color-convert': 2.0.0
   '@types/node': 14.18.12
-  canvas: 2.9.0
+  canvas: 2.9.1
   color-convert: 2.0.1
   commander: 9.1.0
   eslint: 8.11.0
@@ -20,7 +20,7 @@ specifiers:
 
 dependencies:
   '@4s1/toolbox': 4.3.0
-  canvas: 2.9.0
+  canvas: 2.9.1
   color-convert: 2.0.1
   commander: 9.1.0
 
@@ -684,8 +684,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /canvas/2.9.0:
-    resolution: {integrity: sha512-0l93g7uxp7rMyr7H+XRQ28A3ud0dKIUTIEkUe1Dxh4rjUYN7B93+SjC3r1PDKA18xcQN87OFGgUnyw7LSgNLSQ==}
+  /canvas/2.9.1:
+    resolution: {integrity: sha512-vSQti1uG/2gjv3x6QLOZw7TctfufaerTWbVe+NSduHxxLGB+qf3kFgQ6n66DSnuoINtVUjrLLIK2R+lxrBG07A==}
     engines: {node: '>=6'}
     requiresBuild: true
     dependencies:
