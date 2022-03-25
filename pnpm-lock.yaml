@@ -13,7 +13,7 @@ specifiers:
   commander: 9.1.0
   eslint: 8.11.0
   husky: 7.0.4
-  prettier: 2.6.0
+  prettier: 2.6.1
   standard-version: 9.3.2
   ts-node: 10.7.0
   typescript: 4.6.3
@@ -25,7 +25,7 @@ dependencies:
   commander: 9.1.0
 
 devDependencies:
-  '@4s1/eslint-config': 3.10.0_3223c7b9385cad2e0937fbbbdc9ff629
+  '@4s1/eslint-config': 3.10.0_ee91dfa7371e00af301e1840e0f5af45
   '@4s1/ts-config': 1.4.0
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
@@ -33,14 +33,14 @@ devDependencies:
   '@types/node': 14.18.12
   eslint: 8.11.0
   husky: 7.0.4
-  prettier: 2.6.0
+  prettier: 2.6.1
   standard-version: 9.3.2
   ts-node: 10.7.0_b34c2d00f7bffffd3f771e5188a8c9e6
   typescript: 4.6.3
 
 packages:
 
-  /@4s1/eslint-config/3.10.0_3223c7b9385cad2e0937fbbbdc9ff629:
+  /@4s1/eslint-config/3.10.0_ee91dfa7371e00af301e1840e0f5af45:
     resolution: {integrity: sha512-ImdUlu7lCZNL8S8QJ64ll+IHV0Ein57uVJwTAdvf7xhCcP6lMxGiDbJJuP/FnVTGWvh8nQgrUQLF20eN+8QYMA==}
     peerDependencies:
       eslint: '>=7.32.0'
@@ -51,7 +51,7 @@ packages:
       eslint: 8.11.0
       eslint-config-prettier: 8.5.0_eslint@8.11.0
       eslint-plugin-import: 2.25.4_eslint@8.11.0
-      prettier: 2.6.0
+      prettier: 2.6.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -2398,8 +2398,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.6.0:
-    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
+  /prettier/2.6.1:
+    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
