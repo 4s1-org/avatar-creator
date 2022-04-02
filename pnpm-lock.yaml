@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@4s1/eslint-config': 3.11.0
   '@4s1/toolbox': 4.3.0
-  '@4s1/ts-config': 1.4.0
+  '@4s1/ts-config': ^1.4.0
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
   '@types/color-convert': 2.0.0
@@ -62,7 +62,7 @@ packages:
     dev: false
 
   /@4s1/ts-config/1.4.0:
-    resolution: {integrity: sha512-prdCM8V0LZ9Rag9VYUs66W2V3w9uOkZCvJHRM8LN3dRcLPs2hxZWOObx7CM93p2M7LQe2mmdXx5W95RnQhom9g==, registry: https://gitlab.com/api/v4/packages/npm/, tarball: https://gitlab.com/api/v4/packages/npm/@4s1/ts-config/-/ts-config-1.4.0.tgz}
+    resolution: {integrity: sha512-prdCM8V0LZ9Rag9VYUs66W2V3w9uOkZCvJHRM8LN3dRcLPs2hxZWOObx7CM93p2M7LQe2mmdXx5W95RnQhom9g==}
     dev: true
 
   /@babel/code-frame/7.16.0:

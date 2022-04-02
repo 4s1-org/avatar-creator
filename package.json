@@ -4,11 +4,11 @@
   "private": true,
   "description": "Avatar Creator",
   "bugs": {
-    "url": "https://gitlab.com/4s1/avatar-creator/issues"
+    "url": "https://github.com/4s1-org/avatar-creator/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/4s1/avatar-creator.git"
+    "url": "https://github.com/4s1-org/avatar-creator.git"
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@4s1/eslint-config": "3.11.0",
-    "@4s1/ts-config": "1.4.0",
+    "@4s1/ts-config": "^1.4.0",
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
     "@types/color-convert": "2.0.0",
