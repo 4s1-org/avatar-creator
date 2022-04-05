@@ -5,9 +5,9 @@ import { SquareColor } from './square-color'
 
 export class Matrix {
   private data: string[] = []
-  private charHeight = 7
-  private charSpaceCount = 2
-  private rowSpaceCount = 1
+  private readonly charHeight = 7
+  private readonly charSpaceCount = 2
+  private readonly rowSpaceCount = 1
   private firstCharInRow = true
 
   public constructor() {
