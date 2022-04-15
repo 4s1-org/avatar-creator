@@ -43,7 +43,7 @@
     "@4s1/toolbox": "4.4.0",
     "canvas": "2.9.1",
     "color-convert": "2.0.1",
-    "commander": "9.1.0"
+    "commander": "9.2.0"
   },
   "devDependencies": {
     "@4s1/eslint-config": "3.12.0",
