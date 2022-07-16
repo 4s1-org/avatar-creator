@@ -8,7 +8,7 @@ specifiers:
   '@types/node': 14.18.21
   canvas: 2.9.3
   color-convert: 2.0.1
-  commander: 9.3.0
+  commander: 9.4.0
   eslint: 8.19.0
   prettier: 2.7.1
   standard-version: 9.5.0
@@ -19,7 +19,7 @@ dependencies:
   '@4s1/toolbox': 4.4.0
   canvas: 2.9.3
   color-convert: 2.0.1
-  commander: 9.3.0
+  commander: 9.4.0
 
 devDependencies:
   '@4s1/eslint-config': 3.14.0_2accb0a72e685669f4189d9c79f10075
@@ -591,8 +591,8 @@ packages:
     hasBin: true
     dev: false
 
-  /commander/9.3.0:
-    resolution: {integrity: sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==}
+  /commander/9.4.0:
+    resolution: {integrity: sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==}
     engines: {node: ^12.20.0 || >=14}
     dev: false
 
